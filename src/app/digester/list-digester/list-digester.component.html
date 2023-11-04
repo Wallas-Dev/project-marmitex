@@ -1,0 +1,19 @@
+<div class="row mb-2">
+    <div class="col-12">
+        <button class="btn btn-success">Nova Marmita</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12 ">
+        <a *ngFor="let digester of digesters" href="#" class="list-group-item clearfix border border-dark p-1 rounded mb-2">
+            <div class="float-start">
+                <h4 class="list-group-item-heading">{{ digester.name }}</h4>
+                <p class="list-group-item-text mb-0">{{ digester.description }}</p>
+            </div>
+            <div class="float-end">
+                <img [src]="digester.imagePath" alt="{{ digester.name }}" class="rounded img-responsive" style="max-height: 70px;">
+            </div>
+        </a>
+        <!-- <app-item-digester></app-item-digester> -->
+    </div>
+</div>
