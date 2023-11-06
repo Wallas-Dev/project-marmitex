@@ -8,6 +8,7 @@ import { DetailsDigesterComponent } from './digester/details-digester/details-di
 import { ItemDigesterComponent } from './digester/list-digester/item-digester/item-digester.component';
 import { ListFoodComponent } from './list-food/list-food.component';
 import { EditFoodComponent } from './list-food/edit-food/edit-food.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { EditFoodComponent } from './list-food/edit-food/edit-food.component';
     EditFoodComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

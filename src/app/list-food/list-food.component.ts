@@ -8,4 +8,5 @@ import { Food } from '../shared/food.model';
 })
 export class ListFoodComponent {
   foodList: Food[] = [new Food('Carne', 1), new Food('Arroz', 2), new Food('Couve', 2)]
+  
 }
