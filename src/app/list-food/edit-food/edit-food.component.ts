@@ -9,14 +9,11 @@ import { Food } from 'src/app/shared/food.model';
 })
 export class EditFoodComponent {
   @Input() foodList: Food[] = []
-  nameFood = ""
+  nameFood: string = ""
   amount = null
 
   addFood(form: NgForm){
-    console.log(form.value.name);
-    console.log(form.value.amount);
     this.foodList.push(new Food(form.value.name, form.value.amount))
     form.resetForm()
-    
   }
 }
