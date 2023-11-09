@@ -1,8 +1,14 @@
 # Marmitex
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+Esse projeto foi criado em [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+
+Para rodar o projeto é necessario execultar "npm install" para as dependencias e "ng Server" 
 
 ## Comandos para usar:
+
+Uso de variaveis no template:
+
+- {{variavel}}
 
 Transferir valores do input:
 - Ngmodel
@@ -13,3 +19,15 @@ Transferir variaveis entre componentes:
 
 - Pai para filho: @Input
 - Filho para pai: @Output
+
+Condicionais do Angular (Property Binding):
+
+- ngIf
+- ngFor
+- ngElse
+- ngClick 
+
+Recursos para o form:
+
+- ngForm ex(#form="ngForm")
+- ngSubmmit ex((ngSubmit)="addFood(form)")
