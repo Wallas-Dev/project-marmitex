@@ -14,7 +14,7 @@ Transferir valores do input:
 
 - Ngmodel (Two Way DataDinding)
 - function($event) (Event Binding)
-- atributo na tag ex:(<input type="text" #atributteInput/>)
+- atributo na tag ex:(<input type="text" #atributte input/>)
 
 Transferir variaveis entre componentes:
 
