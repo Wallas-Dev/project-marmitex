@@ -6,14 +6,14 @@ Para rodar o projeto é necessario execultar "npm install" para as dependencias 
 
 ## Comandos para usar:
 
-Uso de variaveis no template:
+Uso de variaveis no template (String Interpolation):
 
 - {{variavel}}
 
 Transferir valores do input:
 
-- Ngmodel
-- function($event)
+- Ngmodel (Two Way DataDinding)
+- function($event) (Event Binding)
 - atributo na tag ex:(<input type="text" #atributteInput/>)
 
 Transferir variaveis entre componentes:
