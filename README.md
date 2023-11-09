@@ -10,5 +10,6 @@ Transferir valores do input:
 - atributo na tag ex:(<input type="text" #atributteInput/>)
 
 Transferir variaveis entre componentes:
-Pai para filho: @Input
-Filho para pai: @Output
+
+- Pai para filho: @Input
+- Filho para pai: @Output
