@@ -16,4 +16,8 @@ export class EditFoodComponent {
     this.foodList.push(new Food(form.value.name, form.value.amount))
     form.resetForm()
   }
+
+  clearForm(form:NgForm){
+    form.resetForm()
+  }
 }

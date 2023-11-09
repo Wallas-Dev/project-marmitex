@@ -3,9 +3,12 @@
         <app-edit-food [foodList]="foodList"></app-edit-food>
         <hr>
         <ul class="list-group">
-            <a *ngFor="let food of foodList" class="list-group-item" style="cursor: pointer;">
-                {{food.name}} ({{ food.amount }})
-            </a>
+            <div *ngFor="let food of foodList; let i = index" class="list-group-item" >
+                <div class="d-flex justify-content-between ">
+                    {{food.name}} ({{ food.amount }})
+                    <i [id]="i" class='bx bxs-x-circle text-danger' style="cursor: pointer;" (click)="removeFood($event)"></i>
+                </div>
+            </div>
         </ul>
     </div>
 </div>
